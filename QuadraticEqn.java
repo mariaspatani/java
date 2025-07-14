@@ -19,8 +19,8 @@ public class QuadraticEqn {
 	            double result = b * b - 4.0 * a * c;
 
 	            if (result > 0.0) {
-	                double r1 = (-b + Math.pow(result, 0.5)) / (2.0 * a);
-	                double r2 = (-b - Math.pow(result, 0.5)) / (2.0 * a);
+	                double r1 = (-b + Math.pow(result, 0.5)) / (2.0 * a);//instead, we can use math.sqrt(result);
+	                double r2 = (-b - Math.pow(result, 0.5)) / (2.0 * a);//instead, we can use math.sqrt(result);
 	                System.out.println("The roots are " + r1 + " and " + r2);
 	            } else if (result == 0.0) {
 	                double r1 = -b / (2.0 * a);
