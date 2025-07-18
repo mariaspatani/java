@@ -1,3 +1,8 @@
+/*
+ Author :Maria
+ Date :18 July 2025
+ Description: Display the details of the class Book.
+ */
 package Book;
 class Book{
 	String title;
@@ -10,16 +15,13 @@ class Book{
 	}
 	public void displayDetails() {
 		System.out.println("Title: \t"+title);
-		System.out.println("Author: \t"+author);
+		System.out.println("Author:\t"+author);
 		System.out.println("Price:\t"+price);
 	}
 }
 public class Demo {
 	public static void main(String[] args) {
 		Book book=new Book();
-		book.title="Unknown";
-		book.author="Not Assigned";
-		book.price="0";
+		book.displayDetails();
 	}
-
 }
