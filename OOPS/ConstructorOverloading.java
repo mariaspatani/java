@@ -24,7 +24,7 @@ class Student{
 		this.name=name;
 	}
 	Student(int rollNumber,String name,String dept){
-		System.out.println("Fouth Constructor Initiated");
+		System.out.println("Fourth Constructor Initiated");
 		this.rollNumber=rollNumber;
 		this.name=name;
 		this.dept=dept;
