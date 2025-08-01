@@ -4,7 +4,7 @@ class Book{
 	 int bookID;
 	static int bookCounter=1000;
 	static final String LIBRARY_NAME="Central Library";
-	int totalBooks=0;
+	static int totalBooks=0;
 Book(){
 	this.title="Wings Of Fire";
 	this.author="APJ";
