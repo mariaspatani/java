@@ -10,7 +10,7 @@
 		this.rollNumber=rollNumber;
 		studentCount++;
 	}
-	public void displayCount() {
+	public static void displayCount() {
 		System.out.println("Student Count:"+ " "+studentCount);
 		
 	}
@@ -22,7 +22,7 @@ public class Static {
 		Student student1=new Student("Abc",1);
 		Student student2 =new Student("Cde",2);
 		Student student3 =new Student("Efg",3);
-		student3.displayCount();
+		Student.displayCount();
 	}
 
 }
