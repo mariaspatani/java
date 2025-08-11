@@ -1,3 +1,8 @@
+/*
+ Author : Maria 
+ Date   : August 8 2025
+ Description : Inheritance related practice qns
+ */
 class Shape{
 	String color;
 	Shape(String color){
@@ -25,12 +30,6 @@ class Rectangle extends Shape{
 		super(color);
 		this.length=length;
 		this.width=width;
-	}
-	public void displayColor() {
-		System.out.println("Color: "+color);
-	}
-	public void displayColor() {
-		System.out.println("Color: "+color);
 	}
 	public void calculateArea(double length,double width) {
 		double area=length*width;
