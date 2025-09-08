@@ -9,6 +9,7 @@ public class FileDemo {
 		//file =An abstract representation of file and directory pathnames
 	//creating an object for the file
 		File file=new File("FileDemo1.txt");
+		//File file =new File("C:\Users\HP\Desktop\FileDemo1.txt");
 		if(file.exists()) {
 			System.out.println("That file exists!");
 		}
