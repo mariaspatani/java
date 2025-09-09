@@ -1,0 +1,32 @@
+/*
+Author : Maria
+Date   : Sept 10 2025
+Description : Find the sum of two numbers using recursion.
+*/
+
+import java.util.Scanner;
+public class SumUsingRecursion {
+    static int add(int a, int b) {
+        if (b == 0) {
+            return a;
+        }
+        else{ 
+          return add(a + 1, b - 1);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter the first number: ");
+        int num1 = sc.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int num2 = sc.nextInt();
+      
+        int sum = add(num1, num2);
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+
+        sc.close();
+    }
+}
