@@ -2,7 +2,7 @@ import java.awt.Color;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
-public class gui_demo1 {
+public class Main {
 	public static void main(String[] args) {
 		//JFrames= a GUI window to add components
 		 /*JFrame frame = new JFrame();//create a frame
