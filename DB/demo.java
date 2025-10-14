@@ -3,6 +3,7 @@ import java.sql.*;
 public class CreateDB {
 	static final String JDBC_DRIVER="com.mysql.jdbc.Driver";
 	static final String DB_URL ="jdbc:mysql://localhost:3306/";
+
 	
 	//database username and password
 	static final String USER ="demo";
