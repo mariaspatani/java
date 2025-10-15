@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class Calculator extends JFrame implements ActionListener {
-
+    
     private JTextField textField;
     private double num1, num2, result;
     private char operator;
