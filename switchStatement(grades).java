@@ -4,7 +4,6 @@
   Description : The program to print the grade and result using switch statements.
  */
 
-
 package practice1;
 import java.util.Scanner;
 public class Grade1{
