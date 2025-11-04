@@ -1,23 +1,20 @@
 🎉 Welcome to the Java Repository!
 This repository is a collection of my Java code, demonstrating skills from basic programming up through advanced topics like OOP, Exception Handling, and GUI applications.
+
 🔍 Analysis of Repository Contents
 
-Based on the screenshot, here are the main topics and files in the repository:
+📁 Folder Name,🎯 Focus Area,✨ Key Programs Included:
 
-📁 Folder Modules (Conceptual Topics)
+01_Simple_Programs,Java Basics 👶,"Calculator, Voting Eligibility, Divisibility Checks."
 
-These folders organize programs based on major Java topics:
-    AbstractClasses: Contains examples demonstrating the use of abstract classes.
-    DB: Likely contains programs related to Database Connectivity (JDBC).
-    ExceptionHandling: Focuses on managing runtime errors and exceptions.
-    File: Examples of File I/O operations (e.g., FileReader.java).
-    GUI: Contains code for Graphical User Interfaces (e.g., "Add Java Swing with checkboxes").
-    Interface: Demonstrates the use and implementation of interfaces.
-    OOPs: Core Object-Oriented Programming principles.
-    PYQ: Likely stores Previous Year Questions or specialized problem solutions.
-    Patterns: Programs related to printing numerical or character patterns (common for introductory programming).
-    Recursion: Examples utilizing recursive function calls (e.g., SumofTwoNumbers.java).
-    Strings: Programs manipulating strings (e.g., ReverseEachWord.java).
+02_OOP_Core_Concepts,OOP Principles 🏛️,"Classes, Encapsulation, Polymorphism, and fundamental OOPs demos."
 
-📄 Individual Files/Programs
+03_Solved_PYQs,Exam Practice 📝,Solutions to Previous Year Questions and complex challenges.
 
+04_Exception_Handling,Error Management 🛡️,"Safe code using try-catch, and custom error handling."
+
+05_Event_Handling,User Interaction 🖱️,Logic connecting user clicks and key presses to actions.
+
+06_Database_JDBC,Data Integration 💾,Connecting Java to databases (DB files) using JDBC.
+
+07_Swing_GUI_Apps,Desktop Apps 🖼️,Building visual applications (GUI folder) with checkboxes and windows.
