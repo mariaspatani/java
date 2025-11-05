@@ -3,6 +3,7 @@ Create a subclass Student with attributes rollno, mark1, mark2, and mark3. Overr
 Create another subclass Faculty with attributes faculty_id, department, basic_pay, and DA. 
 Override the display() method to calculate the total salary as (basic_pay+DA)+70% of (basic_pay+DA).
 Create instances of Student and Faculty and display their details.*/
+
 public class Person {
     // Attributes
     protected String name;
