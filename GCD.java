@@ -1,29 +1,25 @@
-// Java program to find GCD of two numbers
-class GCD {
-    // Gcd of x and y using recursive function
-    static int GCD(int x, int y)
-    {
-        // Everything is divisible by 0
-        if (x == 0)
-            return y;
-        if (y == 0)
-            return x;
+import java.util.Scanner;
 
-        // Both the numbers are equal
-        if (x == y)
-            return x;
-
-        // x is greater
-        if (x > y)
-            return GCD(x - y, y);
-        return GCD(x, y - x);
+public class GCD {
+    public static int findGCD(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;   // remainder
+            a = temp;
+        }
+        return a; // GCD
     }
 
-    // The Driver method
-    public static void main(String[] args)
-    {
-        int x = 100, y = 88;
-        System.out.println("GCD of " + x + " and " + y
-                           + " is " + GCD(x, y));
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int n1 = sc.nextInt();
+
+        System.out.print("Enter second number: ");
+        int n2 = sc.nextInt();
+
+        int gcd = findGCD(n1, n2);
+        System.out.println("GCD = " + gcd);
     }
 }
