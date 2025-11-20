@@ -1,5 +1,5 @@
 // Java program to find GCD of two numbers
-class GFG {
+class GCD {
     // Gcd of x and y using recursive function
     static int GCD(int x, int y)
     {
